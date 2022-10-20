@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: .5s;
+}
+.box{
+  width: 630px;
+  height: 500px;
+  background:#cb3244;
+  display: flex;
+  justify-content: center;
+  padding-top: 4em;
+  border-radius: 0 0 40px 0;
+}
+.button{
+  position: relative;
+  width: 80px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(to bottom right,
+   #403f44, #1e1b32);
+  box-shadow: 0 0 10px 0 #000;
+  outline: none;
+}
+.span{
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #cb3244;
+  transform: translateX(37px);
+}
+
+/* these are the classes that 
+are added when you click on the button */
+.change{
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(to bottom right,
+   #403f44, #1e1b32);
+  transform: translateX(-2px);
+}
+.box-change{
+  background: linear-gradient(to bottom right,
+   #403f44, #1e1b32);
+}
+.button-change{
+  background: #cb3244;
+}
